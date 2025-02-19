@@ -1,0 +1,59 @@
+body{
+    width: 100vm;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 209, 212);
+}
+
+nav{
+    height: auto;
+    background-color: rgb(48, 117, 213);
+    color: aliceblue;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.flex-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row ;
+    align-items: flex-start;
+    margin: 20px 10px;
+    justify-content: center;
+}
+
+.main{
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    background-color: rgb(249, 249, 250);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task{
+    width: 40%;
+    padding: 10px;
+}
+
+.work{
+    background-color: rgb(249, 249, 250);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
