@@ -7,33 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <script src="index.js"></script>
     <nav>
         <h1>TODO LIST</h1>
     </nav>
     <div class="flex-container">
         <div class="main">
             <h1>TO DO</h1>
-            <form action="" class="formulario">
+            <form action="" id="formulario" class="formulario">
                 <p>Task</p>
-                <input type="text" name="txtTask" required placeholder="Task">
+                <input type="text" id="task" required placeholder="Task" class="input-form">
                 <p>Description</p>
-                <input type="text" name="txtDescription" required placeholder="Description">
+                <input type="text" id="task-description" required placeholder="Description" class="input-form">
                 <button type="submit" id="btnAdd">Add</button>
             </form>
         </div>
         <div class="task">
             <h1>LIST</h1>
-            <div class="work">
-                <h2>Task</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet animi reiciendis nesciunt unde, quaerat illum officia labore quas enim, id deleniti doloremque non expedita! Nostrum odit suscipit maiores illum sint!</p>
-                <button type="submit">O</button>
-                <button type="submit">X</button>
+            <div id="card">
+                
             </div>
-            <div class="work">
-                <h2>Task</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet animi reiciendis nesciunt unde, quaerat illum officia labore quas enim, id deleniti doloremque non expedita! Nostrum odit suscipit maiores illum sint!</p>
-                <button type="submit">X</button>
-                <button type="submit">O</button>
             </div>
         </div>
     </div>
