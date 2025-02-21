@@ -89,6 +89,17 @@ nav{
     align-items: center;
 }
 
+.work{
+    background-color: rgb(249, 249, 250);
+    border-radius: 5px;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
 .work-buttons{
     margin-left: 5px;
 }
