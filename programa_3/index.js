@@ -69,7 +69,8 @@ const imprimirTarea = (listaDatos)=>{
                         <button id= "btnComplete" type="button" onclick ="evtComplete(${taskItem.id})">O</button>
                     </div>
                     <div class="work-buttons">
-                        <button id = "btnIncomplete" type="button" onclick ="evtIncomplete(${taskItem.id})">X</button>
+                        <button id = "btnIncomplete" type="button" onclick ="evtIncomplete(${taskItem.id})">
+                        <i class="bi bi-x-octagon"></i></button>
                     </div>
                 </div>`;
                 if(i === 0){
