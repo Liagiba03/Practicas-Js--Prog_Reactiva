@@ -97,7 +97,7 @@ const evtComplete = (id)=>{
 }
 
 const evtIncomplete = (id)=>{
-    console.log(`evt bnt incomplete ${id}`);
+    //console.log(`evt bnt incomplete ${id}`);
     const newData = data.filter((task) => task.id !== id);
     //const newData = data.splice(id, 1);
     //const newData = data.map(task=>task.id === id ? null: task);
