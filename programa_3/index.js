@@ -67,7 +67,8 @@ const imprimirTarea = (listaDatos)=>{
                         <span>${taskItem.description}</span>
                     </div>
                     <div class="work-buttons">
-                        <button id= "btnComplete" type="button" onclick ="evtComplete(${taskItem.id})">O</button>
+                        <button id= "btnComplete" type="button" onclick ="evtComplete(${taskItem.id})">
+                        <i class="bi bi-check2-circle"></i></button>
                     </div>
                     <div class="work-buttons">
                         <button id = "btnIncomplete" type="button" onclick ="evtIncomplete(${taskItem.id})">
