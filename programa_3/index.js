@@ -83,7 +83,7 @@ const imprimirTarea = (listaDatos)=>{
 
 
 const evtComplete = (id)=>{
-    console.log(`evt bnt complete ${id}`);
+    //console.log(`evt bnt complete ${id}`);
     const newData = data.map((task)=>{
         if (task.id == id){
             return {...task, status:!task.status}
