@@ -108,11 +108,12 @@ nav{
     background-color: rgb(24, 249, 3);
     width: auto;
     height: 30px;
+    border: none;
 }
 
 #btnIncomplete{
     background-color: rgb(252, 0, 0);
     width: auto;
     height: 30px;
-    
+    border: none;
 }
