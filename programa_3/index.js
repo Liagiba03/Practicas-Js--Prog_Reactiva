@@ -8,10 +8,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     const taskDescriptionInput = document.getElementById("task-description")
     const listaDatos = document.getElementById("card");
 
-    //const btnComplete = document.getElementById("btnComplete");
-    //const btnIncomplete = document.getElementById("btnIncomplete");
-
-
     formulario.addEventListener('submit', (evt)=>{
         evt.preventDefault();
         const task = taskInput.value.trim();
@@ -103,8 +99,6 @@ const evtComplete = (id)=>{
 const evtIncomplete = (id)=>{
     //console.log(`evt bnt incomplete ${id}`);
     const newData = data.filter((task) => task.id !== id);
-    //const newData = data.splice(id, 1);
-    //const newData = data.map(task=>task.id === id ? null: task);
     data = newData;
     const domELementList = document.getElementById("card");
     imprimirTarea(domELementList);
